@@ -18,7 +18,7 @@ pipeline {
     stages {
         stage('1. Git Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/rushikesh3111/Amazon-Prime-App.git''
+                git branch: 'main', url: 'https://github.com/rushikesh3111/Amazon-Prime-App.git'
             }
         }
         
